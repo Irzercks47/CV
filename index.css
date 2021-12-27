@@ -1,0 +1,240 @@
+/*STYLE*/
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@900&family=Titillium+Web:ital,wght@0,300;1,200&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Merriweather', serif;
+    font-family: 'Titillium Web', sans-serif;
+    margin: 0;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+/*NAVBAR*/
+header {
+    background-color: rgb(3, 98, 136);
+}
+
+header .container h1 {
+    float: left;
+    margin: 5px;
+    font-size: 30px;
+}
+
+header .container h1 a {
+    text-decoration: none;
+    font-weight: 500;
+}
+
+header .container h1 a:visited {
+    color: black;
+}
+
+header::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+nav {
+    float: right;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 60px;
+    padding-top: 17px;
+
+    position: relative;
+}
+
+nav a {
+    color: rgb(27, 26, 26);
+    text-decoration: none;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+nav a:hover {
+    color: black;
+}
+
+nav a::before {
+    content: '';
+    display: block;
+    height: 5px;
+    width: 100%;
+    background-color: rgb(27, 26, 26);
+
+    position: absolute;
+    top: 0;
+    width: 0%;
+
+    transition: all ease-in-out 200ms;
+}
+
+nav a:hover::before {
+    width: 100%;
+}
+
+/*HERO IMAGE*/
+.hero {
+    display: block;
+    height: 22rem;
+    background-image: url(asset/digitization-g32e507342_1920.jpg);
+}
+
+/*CONTENT*/
+
+.back {
+    height: 390px;
+    display: block;
+    position: relative;
+    top: -150px;
+}
+
+.pend {
+    height: 400px;
+    margin: auto;
+}
+
+
+.left1 {
+    width: 50%;
+    float: left;
+}
+
+
+.right1 {
+    float: right;
+    width: 50%;
+}
+
+.left2 {
+    float: left;
+    width: 50%;
+}
+
+.right2 {
+    float: right;
+    width: 50%;
+}
+
+/*LEFT PAGE*/
+.fotprof {
+    margin: auto;
+}
+
+.fotprof img {
+    display: block;
+    margin: auto;
+    width: 340px;
+    height: 380px;
+}
+
+.left2 h2 {
+    margin-top: 50px;
+    font-size: 48px;
+    text-align: center;
+    color: white;
+}
+
+.skill .left2 h2 {
+    color: black;
+}
+
+
+
+/*RIGHT PAGE*/
+.about {
+    margin-left: auto;
+    margin: auto;
+    border-radius: 10%;
+}
+
+.about h3 {
+    display: block;
+    color: white;
+    margin-left: 20%;
+    margin-bottom: 10px;
+}
+
+.about h4 {
+    display: block;
+    color: white;
+    margin-left: 20%;
+    margin-top: 5px;
+}
+
+.about p {
+    margin-left: 20%;
+    margin-top: 70px;
+}
+
+.right2 h4 {
+    color: white;
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+
+.skill .right2 h4 {
+    color: black;
+}
+
+.skill .right2 h5 {
+    font-size: 24px;
+}
+
+/*UTILS*/
+.white {
+    background-color: white;
+}
+
+.blue {
+    background-color: rgb(2, 50, 70);
+}
+
+.bord {
+    border: 2px solid black;
+}
+
+.mt-50px {
+    margin-top: 50px;
+}
+
+.mt0px {
+    margin-top: 0px;
+}
+
+.h588px {
+    height: 588px;
+}
+
+.mtmb0px {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.ib {
+    display: inline-block;
+}
+
+.h820px {
+    height: 820px;
+}
+
+.h490px {
+    height: 490px;
+}
