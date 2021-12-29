@@ -185,7 +185,7 @@ nav a:hover::before {
 
 .right2 h4 {
     color: white;
-    font-size: 30px;
+    font-size: 34px;
     margin-bottom: 5px;
 }
 
@@ -194,8 +194,117 @@ nav a:hover::before {
 }
 
 .skill .right2 h5 {
-    font-size: 24px;
+    font-size: 22px;
 }
+
+
+
+/*FOOTER*/
+footer {
+    list-style: none;
+    text-decoration: none;
+    width: 100vw;
+    display: block;
+    overflow: hidden;
+    padding: 70px 0;
+    background-color: rgb(3, 98, 136);
+}
+
+.inner {
+    display: block;
+    margin: 0 auto;
+    width: 1100px;
+    height: 100%;
+}
+
+.inner .sosmed {
+    width: 35%;
+    float: left;
+    height: 100%;
+    display: block;
+}
+
+.inner .contact {
+    width: calc(27% - 20px);
+    margin-right: 160px;
+    float: left;
+    height: 100%;
+}
+
+.inner .contact:last-child {
+    margin-right: 0;
+}
+
+.inner h1 {
+    font-size: 22px;
+    color: white;
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.inner .contact p {
+    font-size: 18px;
+    color: white;
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+
+/*SOSMED ICON*/
+
+.inner .sosmed .fa {
+    font-size: 22px;
+    padding: 16px;
+    width: calc(40% / 3);
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
+
+.fa-github-square {
+    color: black;
+    font-size: 70px;
+}
+
+
+/*CONTACT ICON*/
+.contact .fa {
+    margin-bottom: 20px;
+    float: left;
+    width: 10%;
+}
+
+.contact .fa-phone {
+    margin-top: 5px;
+}
+
+.contact .fa-envelope {
+    margin-top: 4px;
+}
+
+
 
 /*UTILS*/
 .white {
@@ -231,8 +340,8 @@ nav a:hover::before {
     display: inline-block;
 }
 
-.h820px {
-    height: 820px;
+.h680px {
+    height: 680px;
 }
 
 .h490px {
